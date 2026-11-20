@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Music</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Oswald:ital,wght@0,300;0,400&family=PT+Serif:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="slides"></div>
+
+<div class="top">
+  <img class="logo" alt="Universal" src="assets/logo.png">
+  <span class="sub">MUSIC</span>
+</div>
+
+<button class="menu-btn" id="menuBtn" aria-label="Open menu"><i></i></button>
+<button class="news-btn" id="newsBtn">NEWS</button>
+
+<div class="arrows">
+  <button id="prev" aria-label="Previous artist">&#8249;</button>
+  <button id="next" aria-label="Next artist">&#8250;</button>
+</div>
+
+<div class="mid">
+  <h1>We protect music rights</h1>
+  <p>Rights management and administration for creators, so every use of their music is accounted for.</p>
+</div>
+
+<div class="name" id="name" aria-live="polite"></div>
+
+<footer>
+  <div class="c">© 2026. All rights reserved.</div>
+  <div class="soc">
+    <a href="#" aria-label="Facebook">f</a>
+    <a href="#" aria-label="X">X</a>
+    <a href="#" aria-label="Instagram">in</a>
+    <a href="mailto:info@example.com" aria-label="Email">@</a>
+    <a href="#" aria-label="Search"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-width="2.4" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/><path d="M12.5 12.5L18 18"/></svg></a>
+  </div>
+  <div class="legal"><a href="#">Terms of Service</a> / <a href="#">Privacy Policy</a> / <a href="#">Reservation of Rights</a> / <a href="#">Do Not Sell My Personal Information</a> / <a href="#">Cookie Choices</a> /</div>
+</footer>
+
+<aside class="panel menu" id="menu" aria-label="Menu">
+  <button class="close" data-close aria-label="Close">&times;</button>
+  <h3>MENU</h3>
+  <nav>
+    <a href="#" data-close>Artists</a>
+    <a href="#" data-close>Labels</a>
+    <a href="#" data-close>About</a>
+    <a href="mailto:info@example.com">Contact</a>
+  </nav>
+</aside>
+
+<aside class="panel news" id="news" aria-label="News">
+  <button class="close" data-close aria-label="Close">&times;</button>
+  <h3>NEWS</h3>
+  <a class="item" href="#"><small>Nov 20, 2026</small><b>News headline goes here</b></a>
+  <a class="item" href="#"><small>Nov 12, 2026</small><b>Another news headline</b></a>
+  <a class="item" href="#"><small>Nov 3, 2026</small><b>A third news headline</b></a>
+</aside>
+
+<script src="script.js"></script>
+</body>
+</html>
